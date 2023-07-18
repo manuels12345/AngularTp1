@@ -1,0 +1,16 @@
+<div class="list">
+    <div class="button" >
+        <button mat-raised-button color="accent" (click)="toggleLista()">click and surprise</button>
+    </div>
+
+    <mat-list class="lista" *ngIf="mostrarLista" >
+
+        <mat-list-item class="veva"  *ngFor="let item of items">
+          <span matListItemTitle>Nombre: {{item.name}}</span>
+          <span matListItemLine>Costo: {{item.costos}}</span>
+        </mat-list-item>
+        
+      </mat-list>
+</div>
+    
+

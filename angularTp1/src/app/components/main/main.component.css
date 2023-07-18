@@ -1,0 +1,27 @@
+.list{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    padding-top: 250px;
+}
+
+.lista{
+  align-items: center;
+  text-align: center;  
+  width: 300px;
+}
+
+.veva {
+    
+    border: 2px solid #ddd7dd;
+    border-radius: 10px;
+    padding: 0px;
+
+}
+
+span{
+
+  color: white;
+
+}
+
